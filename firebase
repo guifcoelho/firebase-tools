@@ -8,5 +8,5 @@ docker run -it \
 	-u node \
 	-w /usr/app \
 	-v $PWD:/usr/app \
-	guifcoelho:firebase-tools \
+	coelhoxz/firebase-tools \
 	firebase "$@"
